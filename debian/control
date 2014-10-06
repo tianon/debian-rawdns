@@ -1,0 +1,24 @@
+Source: rawdns
+Section: doc
+Priority: extra
+Maintainer: Tianon Gravi <admwiggin@gmail.com>
+Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-golang, golang-dns-dev, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/tianon/rawdns
+Vcs-Git: git://anonscm.debian.org/docker/rawdns.git
+Vcs-Browser: http://anonscm.debian.org/cgit/docker/rawdns.git
+
+Package: rawdns
+Architecture: linux-any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: raw DNS interface to the Docker API
+ "rawdns" is a DNS forwarder that allows for DNS requests to return the IP
+ addresses of Docker containers directly.
+ .
+ For example, if one has a container named "app", then a request for
+ "app.docker" would return the IP address of that container.  Likewise, if the
+ "app" container has a linked database container whose alias name is "db", then
+ a request for "db.app.docker" would return the IP address of the linked
+ database container.

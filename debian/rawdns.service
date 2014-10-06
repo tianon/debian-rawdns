@@ -1,0 +1,6 @@
+[Unit]
+Description=raw DNS interface to the Docker API
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/rawdns /etc/rawdns.json

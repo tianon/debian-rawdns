@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/rawdns-$1\.tar\.gz/ \
+  https://github.com/tianon/rawdns/tags .*/v?(\d\S*)\.tar\.gz
