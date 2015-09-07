@@ -1,5 +1,5 @@
-rawdns (1.1-1) UNRELEASED; urgency=medium
+rawdns (1.2-1) UNRELEASED; urgency=medium
 
-  * Initial release.
+  * Initial release
 
- -- Tianon Gravi <admwiggin@gmail.com>  Sat, 23 Aug 2014 23:11:50 -0400
+ -- Tianon Gravi <tianon@debian.org>  Sat, 23 Aug 2014 23:11:50 -0400

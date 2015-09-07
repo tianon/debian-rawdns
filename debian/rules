@@ -1,9 +1,6 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-export DH_GOPKG := github.com/tianon/rawdns
+export DH_GOLANG_EXCLUDES := /vendor/
 
 %:
 	dh $@ --buildsystem=golang --with=golang
@@ -11,8 +8,5 @@ export DH_GOPKG := github.com/tianon/rawdns
 override_dh_auto_install:
 	dh_auto_install
 	
-	mkdir -p debian/rawdns/etc
-	cp example-config.json debian/rawdns/etc/rawdns.json
-	
 	# the source code of rawdns does not make a library
-	rm -rf debian/rawdns/usr/share/gocode
+	rm -r debian/rawdns/usr/share/gocode

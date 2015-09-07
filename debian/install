@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+example-config.json => /etc/rawdns.json
