@@ -1,5 +1,5 @@
-rawdns (1.2-1) UNRELEASED; urgency=medium
+rawdns (1.2-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tianon Gravi <tianon@debian.org>  Sat, 23 Aug 2014 23:11:50 -0400
+ -- Tianon Gravi <tianon@debian.org>  Sun, 06 Sep 2015 20:09:32 -0700
