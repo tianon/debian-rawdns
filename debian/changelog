@@ -1,9 +1,9 @@
-rawdns (1.2~ds1-1) UNRELEASED; urgency=medium
+rawdns (1.2~ds1-1) unstable; urgency=medium
 
   * Use Files-Excluded to exclude 3rd party vendored libraries
-  * Note Expat license
+  * Note Expat license; thanks Thorsten!
 
- -- Tianon Gravi <tianon@debian.org>  Sun, 06 Sep 2015 20:09:32 -0700
+ -- Tianon Gravi <tianon@debian.org>  Sat, 12 Sep 2015 13:58:36 -0700
 
 rawdns (1.2-1) unstable; urgency=medium
 
