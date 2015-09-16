@@ -1,8 +1,8 @@
 Source: rawdns
 Section: net
 Priority: extra
-Maintainer: Tianon Gravi <tianon@debian.org>
-Uploaders: Docker Packaging Team <docker-maint@lists.alioth.debian.org>
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Tianon Gravi <tianon@debian.org>
 Build-Depends: debhelper (>= 9),
                dh-exec,
                dh-golang,
@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9),
                golang-go
 Standards-Version: 3.9.6
 Homepage: https://github.com/tianon/rawdns
-Vcs-Git: git://anonscm.debian.org/docker/rawdns.git
-Vcs-Browser: http://anonscm.debian.org/cgit/docker/rawdns.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/rawdns.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/rawdns.git
 XS-Go-Import-Path: github.com/tianon/rawdns
 
 Package: rawdns
