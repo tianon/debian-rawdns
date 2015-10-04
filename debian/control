@@ -6,7 +6,7 @@ Uploaders: Tianon Gravi <tianon@debian.org>
 Build-Depends: debhelper (>= 9),
                dh-exec,
                dh-golang,
-               golang-github-miekg-dns-dev | golang-dns-dev,
+               golang-dns-dev | golang-github-miekg-dns-dev,
                golang-go
 Standards-Version: 3.9.6
 Homepage: https://github.com/tianon/rawdns
