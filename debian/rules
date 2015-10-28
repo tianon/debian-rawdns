@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_BUILDPKG := github.com/tianon/rawdns/src/...
+
 %:
 	dh $@ --buildsystem=golang --with=golang
 
